@@ -1,9 +1,19 @@
 @use "../../assets/sass/_variables.scss" as *;
 
-.name_and_role {
-  border: 2px solid black;
-  width: 9em;
-  height: 13em;
+.name {
+  gap: 0.5cm;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+
+  &__and__role {
+    border: 2px solid black;
+    width: 9em;
+    height: 13em;
+  }
 }
 
 .counter {
@@ -21,4 +31,14 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: space-around;
+}
+
+#Employees_Container {
+  gap: 0.5cm;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
 }

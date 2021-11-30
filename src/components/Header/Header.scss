@@ -1,0 +1,10 @@
+@use "../../assets/sass/_variables.scss" as *;
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}

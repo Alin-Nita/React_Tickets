@@ -1,0 +1,24 @@
+@use "../../assets/sass/_variables.scss" as *;
+
+.name_and_role {
+  border: 2px solid black;
+  width: 9em;
+  height: 13em;
+}
+
+.counter {
+  border: 1px solid black;
+  align-items: center;
+
+  .counter__score {
+    align-items: center;
+    margin-left: 4em;
+  }
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: space-around;
+}

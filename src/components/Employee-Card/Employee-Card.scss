@@ -1,6 +1,8 @@
 @use "../../assets/sass/_variables.scss" as *;
 
 .name {
+  background-color: dimgray;
+  color: whitesmoke;
   gap: 0.5cm;
   display: flex;
   flex-direction: row;
@@ -10,9 +12,12 @@
   align-items: center;
 
   &__and__role {
+    color: whitesmoke;
+    background-color: dimgray;
     border: 2px solid black;
     width: 9em;
     height: 13em;
+    border-radius: 15px;
   }
 }
 
@@ -37,7 +42,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 20px 20px;
+  gap: 60px 40px;
   grid-template-areas:
     ". . . . ."
     ". . . . .";

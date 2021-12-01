@@ -8,7 +8,7 @@ const App = () => {
     <>
       <Header />
       <div className="Employees_Container">
-        <EmployeeCard />
+        <EmployeeCard peopleArray={team} />;
       </div>
     </>
   );

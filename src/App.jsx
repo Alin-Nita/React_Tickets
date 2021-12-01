@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <div id="Employees_Container">
+      <div className="Employees_Container">
         <EmployeeCard />
       </div>
     </>

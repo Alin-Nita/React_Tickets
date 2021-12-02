@@ -1,8 +1,8 @@
 @use "../../assets/sass/_variables.scss" as *;
 
 .name {
-  background-color: dimgray;
-  color: whitesmoke;
+  background-color: rgb(180, 178, 178);
+  color: black;
   gap: 0.5cm;
   display: flex;
   flex-direction: row;
@@ -12,30 +12,13 @@
   align-items: center;
 
   &__and__role {
-    color: whitesmoke;
-    background-color: dimgray;
+    color: black;
+    background-color: rgb(180, 178, 178);
     border: 2px solid black;
-    width: 9em;
-    height: 13em;
+    width: 10em;
+    height: 15em;
     border-radius: 15px;
   }
-}
-
-.counter {
-  border: 1px solid black;
-  align-items: center;
-
-  .counter__score {
-    align-items: center;
-    margin-left: 4em;
-  }
-}
-
-#buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: space-around;
 }
 
 .Employees_Container {

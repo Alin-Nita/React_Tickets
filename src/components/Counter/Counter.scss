@@ -1,0 +1,16 @@
+.counter {
+  border: 1px solid black;
+  align-items: center;
+
+  .counter__score {
+    align-items: center;
+    margin-left: 4em;
+  }
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: space-around;
+}
